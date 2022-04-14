@@ -1,0 +1,33 @@
+body {
+  margin: 100
+  font-family: Helvetica;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  background-color: gold;
+  font-size: 20px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 14px 7px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: blue;
+  color: black;
+}
+
+li a:hover:not(.active) {
+  background-color: green;
+  color: black;
+}
